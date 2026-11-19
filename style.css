@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+/* hero */
+.hero{
+    height: 90vh;
+    background-color: rgb(120, 116, 116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    margin-top: 30vh;
+}
+
+
+.heading{
+    font-size: 74px;
+    color: rgb(0, 0, 0);
+
+}
+
+.content p{
+    font-size: ;
+}
